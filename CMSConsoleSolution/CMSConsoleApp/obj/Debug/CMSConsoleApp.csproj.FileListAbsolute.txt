@@ -1,0 +1,10 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\bin\Debug\CMSConsoleApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\bin\Debug\CMSConsoleApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\bin\Debug\CMSConsoleApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\obj\Debug\CMSConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\obj\Debug\CMSConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\obj\Debug\CMSConsoleApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\obj\Debug\CMSConsoleApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\bin\Debug\CMSModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\bin\Debug\CMSModelsLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSConsoleApp\obj\Debug\CMSConsoleApp.csproj.CopyComplete

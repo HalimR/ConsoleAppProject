@@ -1,0 +1,6 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSModelsLibrary\bin\Debug\CMSModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSModelsLibrary\bin\Debug\CMSModelsLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSModelsLibrary\obj\Debug\CMSModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSModelsLibrary\obj\Debug\CMSModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSModelsLibrary\obj\Debug\CMSModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\CMSConsoleSolution\CMSModelsLibrary\obj\Debug\CMSModelsLibrary.pdb

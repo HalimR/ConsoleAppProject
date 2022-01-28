@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSConsoleApp", "CMSConsoleApp\CMSConsoleApp.csproj", "{4436247C-BFB0-4E44-99BD-A94C133844D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSModelsLibrary", "CMSModelsLibrary\CMSModelsLibrary.csproj", "{1AFB5054-D99A-439D-BF5B-40B0ED75BE1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4436247C-BFB0-4E44-99BD-A94C133844D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4436247C-BFB0-4E44-99BD-A94C133844D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4436247C-BFB0-4E44-99BD-A94C133844D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4436247C-BFB0-4E44-99BD-A94C133844D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFB5054-D99A-439D-BF5B-40B0ED75BE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFB5054-D99A-439D-BF5B-40B0ED75BE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFB5054-D99A-439D-BF5B-40B0ED75BE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFB5054-D99A-439D-BF5B-40B0ED75BE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A58F5AFB-F464-4F92-9E8A-E6F8D84B0C86}
+	EndGlobalSection
+EndGlobal
