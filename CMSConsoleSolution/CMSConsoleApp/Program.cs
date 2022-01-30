@@ -16,12 +16,12 @@ namespace CMSConsoleApp
 
         void manageHomepage()
         {
-            Console.WriteLine("Welcome to Clinic Management System (CMS) Console App");
+            Console.WriteLine("Welcome to Clinic Management System (CMS) Console App \n");
             int choice = 0;
             do
             {
-                Console.WriteLine("-------------------------");
-                Console.WriteLine("Select user type to login");
+                Console.WriteLine("Please select from the user type below to login");
+                Console.WriteLine("-------------------------");        
                 Console.WriteLine("1: Patient");
                 Console.WriteLine("2: Doctor");
                 Console.WriteLine("0: Exit");
@@ -48,7 +48,8 @@ namespace CMSConsoleApp
                             }
                             else
                             {
-                                Console.WriteLine("Hello there {0}", userLogin.User_Name);
+                                Console.Clear();
+                                Console.WriteLine("Hello there {0} \n", userLogin.User_Name);
                                 manageAppointment(userLogin);
                                 break;
                             }
@@ -67,7 +68,8 @@ namespace CMSConsoleApp
                             }
                             else
                             {
-                                Console.WriteLine("Hello there Dr.{0}", userLogin2.User_Name);
+                                Console.Clear();
+                                Console.WriteLine("Hello there Dr.{0} \n", userLogin2.User_Name);
                                 manageAppointment(userLogin2);
                                 break;
                             }
@@ -78,7 +80,8 @@ namespace CMSConsoleApp
                             Console.WriteLine("Invalid choice. Please try again");
                             break;
                     }
-                    Console.WriteLine("-------------------------");
+                    //Console.WriteLine("-------------------------");
+                    
                 }
                 catch (NullReferenceException nre)
                 {
@@ -111,12 +114,14 @@ namespace CMSConsoleApp
                 do
                 {
                     Console.WriteLine("-------------------------");
+                    Console.WriteLine("Please select from the options below:");
+                    Console.WriteLine("-------------------------");
                     Console.WriteLine("1: Book Appointment");
                     Console.WriteLine("2: Pay Appointment");
                     Console.WriteLine("3: View Upcoming Appointment");
                     Console.WriteLine("4: View Past Appointment");
                     Console.WriteLine("5: View Profile Detail");
-                    Console.WriteLine("0: Exit");
+                    Console.WriteLine("0: Log Out");
                     while (!int.TryParse(Console.ReadLine(), out choice))
                     {
                         Console.WriteLine("Try again. Please enter a number");
@@ -126,28 +131,35 @@ namespace CMSConsoleApp
                         switch (choice)
                         {
                             case 1:
+                                Console.Clear();
                                 menuApp.BookAppointmentByPatId(user);
                                 break;
                             case 2:
+                                Console.Clear();
                                 menuApp.MakePayment(user);
                                 break;
                             case 3:
+                                Console.Clear();
                                 menuApp.PrintUpcomingAppDetailsByPatId(user.User_Id);
                                 break;
                             case 4:
+                                Console.Clear();
                                 menuApp.PrintPastAppDetailsByPatId(user.User_Id);
                                 break;
                             case 5:
+                                Console.Clear();
                                 user.PrintUserDetail(user);
                                 break;
                             case 0:
-                                Console.WriteLine("Going back...");
+                                Console.Clear();
+                                Console.WriteLine("Returned to homepage...");
+                                Console.WriteLine("-------------------------");
                                 break;
                             default:
                                 Console.WriteLine("Invalid choice. Please try again");
                                 break;
                         }
-                        Console.WriteLine("-------------------------");
+                        //Console.WriteLine("-------------------------");
                     }
                     catch (NullReferenceException nre)
                     {
@@ -176,11 +188,13 @@ namespace CMSConsoleApp
                 do
                 {
                     Console.WriteLine("-------------------------");
+                    Console.WriteLine("Please select from the options below:");
+                    Console.WriteLine("-------------------------");
                     Console.WriteLine("1: View Upcoming Appointment");
-                    Console.WriteLine("2: View Past Appointmen/Records");
+                    Console.WriteLine("2: View Past Appointment/Records");
                     Console.WriteLine("3: Raise payment for Appointment");
                     Console.WriteLine("4: View Profile Detail");
-                    Console.WriteLine("0: Exit");
+                    Console.WriteLine("0: Log Out");
                     while (!int.TryParse(Console.ReadLine(), out choice))
                     {
                         Console.WriteLine("Try again. Please enter a number");
@@ -190,25 +204,31 @@ namespace CMSConsoleApp
                         switch (choice)
                         {
                             case 1:
+                                Console.Clear();
                                 menuApp.PrintUpcomingAppDetailsByDocId(user.User_Id);
                                 break;
                             case 2:
+                                Console.Clear();
                                 menuApp.PrintPastAppDetailsByDocId(user.User_Id);
                                 break;
                             case 3:
+                                Console.Clear();
                                 menuApp.RaisePayment(user);
                                 break;
                             case 4:
+                                Console.Clear();
                                 user.PrintDocDetail(user);
                                 break;
                             case 0:
-                                Console.WriteLine("Going back...");
+                                Console.Clear();
+                                Console.WriteLine("Returned to homepage...");
+                                Console.WriteLine("-------------------------");
                                 break;
                             default:
                                 Console.WriteLine("Invalid choice. Please try again");
                                 break;
                         }
-                        Console.WriteLine("-------------------------");
+                        //Console.WriteLine("-------------------------");
                     }
                     catch (NullReferenceException nre)
                     {

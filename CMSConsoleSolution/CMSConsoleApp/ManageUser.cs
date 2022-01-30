@@ -83,10 +83,10 @@ namespace CMSConsoleApp
                 });
             Console.WriteLine("-------------------------");
             Console.WriteLine("Plese enter Doctor ID (on the far left)");
+            Console.WriteLine("| {0,-3} | {1,-10} | {2,-20} | {3,-20} |", "Id", "Name", "Speciality", "Years of Experience");
             foreach (var item in DoctorList)
             {
-                Console.WriteLine("["+item.UserID + "] Dr. [" + item.UserName+ "] specialize in [" + item.Special
-                    + "] with [" + item.Experience + "] years of experience");
+                Console.WriteLine("| {0,-3} | {1,-10} | {2,-20} | {3,-20} |", item.UserID, item.UserName, item.Special, item.Experience);
             }
             Console.WriteLine("-------------------------");
         }

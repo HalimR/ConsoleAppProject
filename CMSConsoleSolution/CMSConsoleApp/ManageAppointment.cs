@@ -264,6 +264,7 @@ namespace CMSConsoleApp
                 app.App_PayStatus = 3;
 
             PrintAppDetail(app);
+            Console.WriteLine("-------------------------");
             Console.WriteLine("Payment have been made to the appointment above");
         }
 
@@ -349,7 +350,8 @@ namespace CMSConsoleApp
             app.App_PayStatus = 2;
 
             PrintAppDetail(app);
-            Console.WriteLine("Payment request raised for the appointment above");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Payment request have been raised for the appointment above");
         }
         #endregion
 
